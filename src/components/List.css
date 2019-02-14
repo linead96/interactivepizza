@@ -1,0 +1,21 @@
+ul{
+	list-style-type: none;
+}
+li {
+	margin-top: 0.5em;
+	margin-bottom: 0.5 em;
+}
+
+ul li button {
+	background: #CF6870;
+    color: #fff;
+    border: 0;
+    box-shadow: 0 6px #ab3c3c;
+    border-radius: 0.2em;
+}
+
+button:focus { outline:0 !important; }
+
+ul li button:hover {
+	background-color: #530006;
+}
