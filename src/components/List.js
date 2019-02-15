@@ -1,19 +1,20 @@
 import React from 'react';
 import './List.css';
+import ToppingsTitle from './ToppingsTitle.js';
 
-const List = ({}) => {
+const List = ({buttonClicked}) => {
 	return (
-		<div class="d-flex flex-column align-items-center mt-5">
-			<h2 class="text-center"> List of Toppings </h2>
-				<ul class="d-flex flex-column align-items-center pl-0"> 
-					<li> <button>Green Pepper</button></li>
-					<li> <button>Ham</button> </li>
-					<li> <button>Mushroom</button> </li>
-					<li> <button>Olives</button> </li>
-					<li> <button>Onions</button> </li>
-					<li> <button>Pepperoni</button> </li>
-					<li> <button>Pineapple</button> </li>
-					<li> <button>Tomato</button> </li>
+		<div className="d-flex flex-column align-items-center mt-5">
+			<ToppingsTitle/>
+				<ul className="d-flex flex-column align-items-center pl-0"> 
+					<li> <button onClick={buttonClicked}>Green Pepper</button></li>
+					<li> <button onClick={buttonClicked}>Ham</button> </li>
+					<li> <button onClick={buttonClicked}>Mushroom</button> </li>
+					<li> <button onClick={buttonClicked}>Olives</button> </li>
+					<li> <button onClick={buttonClicked}>Onions</button> </li>
+					<li> <button onClick={buttonClicked}>Pepperoni</button> </li>
+					<li> <button onClick={buttonClicked}>Pineapple</button> </li>
+					<li> <button onClick={buttonClicked}>Tomato</button> </li>
 				</ul>
 		</div>
 	)
