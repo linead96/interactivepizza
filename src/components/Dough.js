@@ -4,7 +4,7 @@ import dough from '../imgs/pizza/bread.png';
 
 const Dough = () => {
 	return (
-		<img id="dough" src={dough}/>
+		<img alt="dough" id="dough" src={dough}/>
 	);
 }
 

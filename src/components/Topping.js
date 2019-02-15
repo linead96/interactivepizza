@@ -12,7 +12,7 @@ const pizzaToppings = {'Green Pepper':greenPepper, 'Ham': ham,'Mushroom': mushro
 
 const Topping = ({toppingName}) => {
 	return (	
-		<img className="toppings" src={pizzaToppings[toppingName]}/>
+		<img alt="toppings" className="toppings" src={pizzaToppings[toppingName]}/>
 	)
 };
 
